@@ -26,6 +26,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: happy-day-zw0z0x89jsy6
+          project: happy-day
           import-map: "./import_map.json"
           entrypoint: serve.ts
